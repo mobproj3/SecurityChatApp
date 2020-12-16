@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecurityChatApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <item name="photoView" type="id"/>
+    <string name="auth_error_message">"지문 인증 에러"</string>
+    <string name="auth_success_message">"지문 인증 성공"</string>
+    <string name="auth_fail_message">"지문 인증 실패"</string>
+</resources>

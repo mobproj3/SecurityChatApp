@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "115050539682",
+    "firebase_url": "https://securitychatapp.firebaseio.com",
+    "project_id": "securitychatapp",
+    "storage_bucket": "securitychatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115050539682:android:9806bbda15546f692cc5fb",
+        "android_client_info": {
+          "package_name": "test.securitychatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115050539682-5neaq8lv4vgca28knr706gmrv5088mm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.securitychatApp",
+            "certificate_hash": "28d6bf3e3d51ec7edd3361f08e3d01c08ecff43f"
+          }
+        },
+        {
+          "client_id": "115050539682-3lnpeagkqbvaij8ohma2nlvnke8a8q9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXJoqV7Wz8q5JjuVDeG89Low9FmkR99bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115050539682-3lnpeagkqbvaij8ohma2nlvnke8a8q9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

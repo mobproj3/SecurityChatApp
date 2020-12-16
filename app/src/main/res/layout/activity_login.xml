@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2E2E2E"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".LoginActivity">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="225dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:inputType="text"
+                android:textColor="#333333"
+                android:background="#ffffffff"
+                />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="225dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/user_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#333333"
+                android:background="#ffffffff"
+                />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="#212121"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            />
+
+    <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:background="#212121"
+            android:textColor="#ffffff"
+            />
+
+</LinearLayout>
